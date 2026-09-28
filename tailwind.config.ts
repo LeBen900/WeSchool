@@ -1,1 +1,1 @@
-import type {Config} from "tailwindcss"; export default {content:["./src/**/*.{ts,tsx}"],theme:{extend:{colors:{heritage:"#8b2f25",gold:"#c6922e",paper:"#fbf7ef"}}},plugins:[]} satisfies Config;
+module.exports={plugins:{tailwindcss:{},autoprefixer:{}}};
